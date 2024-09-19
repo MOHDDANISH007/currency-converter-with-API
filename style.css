@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: rgb(71, 61, 57);
+}
+.container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-width: 30%;
+}
+
+form{
+    margin: 2rem 0 2rem 0;
+}
+
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+form input{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    padding: 0.5rem;
+    height: 3rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img{
+    width: 2rem;
+   
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Change this from 6rem to 100% */
+    border: 1px solid lightgray;
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+}
+
+.select-container select {
+    width: 100%; /* Ensure the select box takes up full width */
+    margin-left: 0.5rem; /* Add some spacing between the flag and the select box */
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.dropdown i{
+    font-size: 1.5rem;  
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+}
+
+form button{
+    background-color: rgba(19, 19, 217, 0.66);
+    height: 3rem;
+    color: white;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
